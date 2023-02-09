@@ -2,7 +2,6 @@ package school.mjc.stage0.conditions.finalTask;
 
 public class SeasonDeterminer {
     public void tellTheSeason(int monthNumber) {
-     monthNumber=13;
      if(monthNumber==12||monthNumber==1||monthNumber==2){
       System.out.println("Winter");} 
      else if(monthNumber>=3 && monthNumber<=5){
