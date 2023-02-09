@@ -2,8 +2,6 @@ package school.mjc.stage0.conditions.finalTask;
 
 public class IntegerDivider {
     public void printCompletelyDivided(int dividend, int divider) {
-     dividend=4;
-     divider=0;
      if(dividend==0 || divider==0){
        System.out.println("division by zero");  
      }else{
